@@ -16,7 +16,7 @@ The steps to finding the Lane Lines
 ---
 to find the Lane Lines I applied multiple steps:
 1. I converted the images into Gray scale because it's easier to detect edges .
-![gray](https://i.ibb.co/ZWFWyxj/index.png)
+[gray](https://i.ibb.co/ZWFWyxj/index.png)
 2. I applied Gaussian blur to remove the noise from the image .
 3. then I applied canny function to detect edges on the image .
 ![canny](https://i.ibb.co/fHH5xcf/index.png)
@@ -26,7 +26,7 @@ to find the Lane Lines I applied multiple steps:
 6. then I improved the function of drawing the line by drawing an alternate line instead of multiple lines .
 7. finally I mixed the processing steps with the original image .
 ![final](https://i.ibb.co/KqmM8cw/index.png)
-![gray](https://i.ibb.co/ZWFWyxj/index.png)
+
 Potential shortcomigs & improvements
 ---
 1. the main potential shortcoming is the turns and curves on the road
