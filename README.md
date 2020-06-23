@@ -15,7 +15,7 @@ To meet specifications in the project, take a look at the requirements in the [p
 The steps to finding the Lane Lines
 ---
 to find the Lane Lines I applied multiple steps:
-1. I converted the images into Gray scale because it's easier to detect edges
+1. I converted the images into Gray scale because it's easier to detect edges.
 [!gray](https://i.ibb.co/ZWFWyxj/index.png)
 2. I applied Gaussian blur to remove the noise from the image
 3. then I applied canny function to detect edges on the image
