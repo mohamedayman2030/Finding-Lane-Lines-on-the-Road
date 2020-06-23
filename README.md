@@ -15,18 +15,18 @@ To meet specifications in the project, take a look at the requirements in the [p
 The steps to finding the Lane Lines
 ---
 to find the Lane Lines I applied multiple steps:
-![gray](https://i.ibb.co/ZWFWyxj/index.png)
-1. I converted the images into Gray scale because it's easier to detect edges .
-![gray](https://i.ibb.co/ZWFWyxj/index.png)
+
+1. I converted the images into Gray scale because it's easier to detect edges . ![gray](https://i.ibb.co/ZWFWyxj/index.png)
+
 2. I applied Gaussian blur to remove the noise from the image .
-3. then I applied canny function to detect edges on the image .
-![canny](https://i.ibb.co/fHH5xcf/index.png)
+3. then I applied canny function to detect edges on the image . ![canny](https://i.ibb.co/fHH5xcf/index.png)
+
 4. I choosed the region of interest .
-5. I applied hough line transform to detect lines on the region of interest .
-![hough](https://i.ibb.co/WtNLV4X/index.png)
+5. I applied hough line transform to detect lines on the region of interest . ![hough](https://i.ibb.co/WtNLV4X/index.png)
+
 6. then I improved the function of drawing the line by drawing an alternate line instead of multiple lines .
-7. finally I mixed the processing steps with the original image .
-![final](https://i.ibb.co/KqmM8cw/index.png)
+7. finally I mixed the processing steps with the original image . ![final](https://i.ibb.co/KqmM8cw/index.png)
+
 
 Potential shortcomigs & improvements
 ---
