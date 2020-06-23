@@ -26,7 +26,7 @@ to find the Lane Lines I applied multiple steps:
 6. then I improved the function of drawing the line by drawing an alternate line instead of multiple lines .
 7. finally I mixed the processing steps with the original image .
 ![final](https://i.ibb.co/KqmM8cw/index.png)
-
+![gray](https://i.ibb.co/ZWFWyxj/index.png)
 Potential shortcomigs & improvements
 ---
 1. the main potential shortcoming is the turns and curves on the road
